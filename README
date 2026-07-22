@@ -1,0 +1,158 @@
+# 📊 Adult Income Dataset - Exploratory Data Analysis (EDA)
+
+## 📌 Project Overview
+
+This project performs **Exploratory Data Analysis (EDA)** on the **Adult Income Dataset (`adult.csv`)**. The objective is to understand the dataset, identify patterns, detect missing values and outliers, and explore the factors that influence whether an individual's annual income is greater than **$50K**.
+
+---
+
+## 🎯 Objectives
+
+* Load and inspect the dataset
+* Understand the data structure
+* Check missing and duplicate values
+* Perform statistical analysis
+* Explore numerical and categorical features
+* Visualize data distributions
+* Analyze relationships between features and income
+* Detect outliers
+* Generate insights from the data
+
+---
+
+## 📂 Dataset Information
+
+The dataset contains demographic and employment-related information such as:
+
+* Age
+* Workclass
+* Education
+* Occupation
+* Marital Status
+* Relationship
+* Race
+* Gender
+* Hours per Week
+* Native Country
+* Capital Gain
+* Capital Loss
+* Income (Target Variable)
+
+**Target Column**
+
+* `income`
+
+  * `<=50K`
+  * `>50K`
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+## 📊 Exploratory Data Analysis
+
+The project includes:
+
+* Dataset Overview
+* Data Types Inspection
+* Missing Values Analysis
+* Duplicate Values Check
+* Summary Statistics
+* Numerical Feature Analysis
+* Categorical Feature Analysis
+* Income Distribution
+* Age Distribution
+* Gender Analysis
+* Education Analysis
+* Occupation Analysis
+* Income vs Gender
+* Income vs Education
+* Correlation Heatmap
+* Outlier Detection using Boxplots
+
+---
+
+## 📈 Visualizations
+
+The notebook contains several visualizations, including:
+
+* Histograms
+* Count Plots
+* Box Plots
+* Correlation Heatmap
+* Distribution Plots
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository.
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+```
+
+2. Move into the project folder.
+
+```bash
+cd your-repository
+```
+
+3. Install the required libraries.
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+4. Open the Jupyter Notebook.
+
+```bash
+jupyter notebook
+```
+
+5. Run the notebook.
+
+---
+
+## 📌 Key Insights
+
+* Explored demographic characteristics of individuals.
+* Compared income across education, occupation, and gender.
+* Identified missing values and duplicates.
+* Detected outliers in numerical features.
+* Generated meaningful visual insights from the dataset.
+
+---
+
+## 📁 Project Structure
+
+```
+Adult-EDA/
+│
+├── adult.csv
+├── eda.ipynb
+├── README.md
+```
+
+---
+
+## 👨‍💻 Author
+
+**Rashid Saleem**
+
+* Final-Year Software Engineering Student (Aptech)
+* Aspiring Data Analyst & Data Scientist
+* Passionate about Python, Data Analysis, Machine Learning, and AI
+
+---
+
+## ⭐ If you found this project helpful, consider giving it a star on GitHub!
